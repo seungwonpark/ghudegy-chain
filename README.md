@@ -1,4 +1,4 @@
-# kudeki-chain
+# kudeki-chain 
 kudeki-chain inspired by https://github.com/dj-shin/gitchain
 
 ## Merging pull request without merge commit
