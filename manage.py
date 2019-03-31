@@ -20,7 +20,7 @@ def check_text():
 
 if __name__ == '__main__':
     check_text()
-    check_work()    
+    check_work()     
     
 
       
