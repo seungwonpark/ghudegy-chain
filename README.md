@@ -10,7 +10,7 @@ git merge --ff-only jh05013-master # not --no-ff
 git push origin master
 ```
 Refer to https://shinglyu.com/web/2018/03/25/merge-pull-requests-without-merge-commits.html
-zㅌㅊㅍ
+zㅌㅊㅍ 
 ㅊ
 ㅠ
 
