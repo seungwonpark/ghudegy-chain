@@ -15,7 +15,7 @@ def check_text():
         lines = f.readlines()
     assert len(lines) == 1, "success.txt must have only 1 line"
 
-    line = lines[0].strip()
+    line = lines[0].strip() 
     assert len(line) <= 100, "Username must be shorter than 100 characters"
 
 if __name__ == '__main__':
