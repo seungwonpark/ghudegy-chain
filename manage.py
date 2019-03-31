@@ -1,5 +1,4 @@
 import subprocess
-
 def check_work():
     commit_num = subprocess.check_output("git rev-list HEAD --count", shell=True).decode('utf-8').strip()
     commit_num = int(commit_num)
