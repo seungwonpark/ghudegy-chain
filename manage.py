@@ -2,7 +2,6 @@ import subprocess
 def check_work():
     commit_num = subprocess.check_output("git rev-list HEAD --count", shell=True).decode('utf-8').strip()
     commit_num = int(commit_num)
-
     sha1 = subprocess.check_output("git rev-parse HEAD", shell=True).decode('utf-8').strip()
     work = len(sha1) - len(sha1.lstrip('0'))
 
