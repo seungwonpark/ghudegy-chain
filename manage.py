@@ -9,7 +9,7 @@ def check_work():
     print(f"SHA1 hash of latest commit: {sha1}")
     print(f"Difficulty of work done in commit: {work}")
     assert commit_num <= work, "Not enough work done."
-
+ 
 def check_text():
     with open('success.txt', 'r') as f:
         lines = f.readlines()
